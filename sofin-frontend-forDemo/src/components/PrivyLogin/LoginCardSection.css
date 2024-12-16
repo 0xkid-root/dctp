@@ -1,0 +1,36 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  z-index: 2;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.card-item {
+  flex: 1 1 calc(23% - 16px);
+  box-sizing: border-box;
+}
+
+.card-image {
+  border-radius: 18px !important;
+  border: 2px solid #000 !important;
+  width: 100%;
+  height: auto;
+  border: none;
+  /* border-radius: 24px; */
+  transition: transform 0.3s ease;
+}
+
+.card-image:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .card-item {
+    flex: 1 1 100%;
+    margin-bottom: 16px;
+  }
+}

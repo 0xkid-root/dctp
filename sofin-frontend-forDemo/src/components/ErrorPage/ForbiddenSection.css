@@ -1,0 +1,42 @@
+.forbidden-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: #343a40;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.forbidden-container h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.forbidden-container p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  max-width: 600px;
+}
+
+@media (max-width: 768px) {
+  .forbidden-container h1 {
+    font-size: 3rem;
+  }
+
+  .forbidden-container p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .forbidden-container h1 {
+    font-size: 2rem;
+  }
+
+  .forbidden-container p {
+    font-size: 0.9rem;
+  }
+}

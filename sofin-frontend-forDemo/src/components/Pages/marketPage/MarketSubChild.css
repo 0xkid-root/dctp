@@ -1,0 +1,444 @@
+.main-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    /* padding: 20px; */
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    border: 1px solid #e0e0e0;
+}
+
+button.custom-disabled {
+    background-color: #000 !important; /* Black background */
+    border-color: #000 !important; /* Black border */
+    color: #FFF !important; /* White text */
+    opacity: 0.65; /* Optional: Adjust opacity to indicate it's disabled */
+    pointer-events: none; /* Prevent clicks on the button */
+  }
+  
+  
+
+/* .leftImageSection {
+    flex-shrink: 0;
+    max-width: 300px;
+    height: 325px;
+}
+
+.assetImage {
+    width: 300px;
+    height: 325px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-top: 3px;
+} */
+.leftImageSection {
+    flex-shrink: 0;
+    width: auto;
+    max-width: 350px;
+    height: auto;
+    max-height: 375px;
+    /* width: 350px;
+    height: 375px; */
+    margin: 0 auto;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+
+.leftImageSection:hover {
+    /* --tw-translate-x: -0.25rem;
+    --tw-translate-y: -0.25rem; */
+    transform: translate(-0.25rem, -0.25rem);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+
+/* Asset Image */
+.assetImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: center; 
+}
+
+
+.rightSideManager {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .managerImage {
+    border-radius:4px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .managerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+.managerDescription {
+    font-size: 12px;
+    color: #000;
+    font-family: Roboto;
+    margin-top: 5px;
+    margin-top: 10px;
+  }
+  
+.rightSideSection {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.headerSection {
+    margin-bottom: 16px;
+}
+
+.rightSideTitle {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    margin-bottom: 8px;
+    font-family: 'Roboto' !important;
+    height: fit-content;
+    flex-wrap: nowrap;
+}
+
+
+.rightSideAction {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.buttonStyle {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.watchlistButton {
+    display: flex;
+    text-wrap: nowrap;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    margin-right: 8px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    font-family: 'Roboto';
+    gap: 5px;
+    font-size: 10px;
+}
+
+.cloneButton {
+    display: flex;
+    text-wrap: nowrap;
+    background-color: #FFDE02;
+    color: #000;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    height: fit-content;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    gap: 5px;
+    font-size: 10px;
+}
+.managerNameContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Roboto';
+}
+.yellowTick {
+    width: 20px;
+    height: 20px;
+}
+
+.managerName {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.tickButton {
+    background-color: yellow;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.fundallocationAsset {
+    display: flex;
+    margin-top: 16px;
+    background: rgba(255, 255, 255, 1);
+    width: 100%;
+    border-radius: 16px;
+    /* padding: 30px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-top: 3px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.assetColumn {
+    width: 40% !important;
+    margin-left: -27px;
+    margin-right: 60px;
+}
+
+.fund_title {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.findlistAsset {
+    display: block;
+    width: 40% !important;
+    margin-bottom: 10px;
+    margin-top: 18px;
+}
+/* .findlistAsset:not(:last-child) {
+    margin-left: 30px;
+  } */
+  
+
+.findlistAsset .fundimgAsset {
+    display: flex;
+    align-items: center;
+    
+}
+
+.findlistAsset .fundimgAsset .imge1Asset {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: #e0e0e0;
+}
+
+.findlistAsset .fundimgAsset .imge1Asset img {
+    width: 80%;
+    height: auto;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.findlistAsset .fundimgAsset .nameAsset {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+    font-family: 'Roboto';
+
+}
+
+.findlistAsset .fundimgAsset .amount {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+    margin-left: auto;
+
+}
+
+.findlistAsset .progressbar {
+    margin-top: 12px;
+    position: relative;
+}
+
+.findlistAsset .progressbar .progress {
+    background: #e0e0e0;
+    width: calc(100% - 55px);
+    height: 8px;
+}
+
+.findlistAsset .progressbar .progress .progress-bar {
+    background: #353535;
+}
+
+.findlistAsset .progressbar span {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    right: 0;
+    top: -8px;
+    font-family: "Inter", sans-serif;
+}
+
+.hr-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 44%;
+    transform: translateX(-50%);
+}
+
+.containerDivider {
+    height: 75%;
+    width: 1px;
+    border: 1px solid #000;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .main-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .findlistAsset{
+        width: 100% !important;
+    }
+
+    .watchlistButton {
+        padding: 6px 10px;
+    }
+    .leftImageSection {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .rightSideSection {
+        width: 100%;
+        margin-left: 0px !important;
+    }
+
+    .fundallocationAsset {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .assetColumn {
+        width: 100% !important;
+        margin-left: 0;
+    }
+    .leftImageSection {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hr-container {
+        display: none;
+    }
+    .divider-css{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .watchlistButton,
+    .cloneButton {
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+
+    .leftImageSection {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .assetImage {
+        height: 250px;
+    }
+
+    .rightSideTitle {
+        font-size: 14px;
+        font-weight: 800;    }
+
+    .managerImage {
+        width: 35px;
+        height: 35px;
+    }
+
+    .findlistAsset .fundimgAsset .imge1Asset {
+        width: 28px;
+        height: 28px;
+    }
+
+    .findlistAsset .fundimgAsset .nameAsset,
+    .findlistAsset .fundimgAsset .amount {
+        font-size: 14px;
+    }
+
+    .fundallocationAsset {
+        padding: 15px;
+        width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content {
+        padding: 10px;
+    }
+
+    .assetImage {
+        height: 200px;
+    }
+
+    .watchlistButton,
+    .cloneButton {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .rightSideTitle {
+        font-size: 10px;
+    }
+
+    .managerImage {
+        width: 30px;
+        height: 30px;
+    }
+
+    .fundallocationAsset {
+        padding: 10px;
+    }
+
+    .findlistAsset .fundimgAsset .imge1Asset {
+        width: 24px;
+        height: 24px;
+    }
+
+    .findlistAsset .fundimgAsset .nameAsset,
+    .findlistAsset .fundimgAsset .amount {
+        font-size: 12px;
+    }
+}

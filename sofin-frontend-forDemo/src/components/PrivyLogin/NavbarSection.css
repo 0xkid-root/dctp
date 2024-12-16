@@ -1,0 +1,75 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  position: relative;
+  padding-top:40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.mainDiv{
+  background-color:white;
+  padding: 0;
+  margin-right: -40px;
+  margin-bottom: -40px;
+  margin-left: -40px;
+  margin-top: -40px;
+}
+
+.logo-wrapper .company-logo {
+  width: 200px;
+}
+
+
+.buttons-wrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.connect-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #FFDE02;
+  padding: 10px 26px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.connect-wrapper:hover {
+  background-color: #f6db2b;
+}
+
+.connect-wrapper img {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.connect-button {
+  background-color: transparent;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    padding: 40px;
+  }
+
+  .logo-wrapper .company-logo {
+    width: 120px;
+  }
+
+  .connect-button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .connect-wrapper {
+    padding: 1px 8px;
+  }
+}

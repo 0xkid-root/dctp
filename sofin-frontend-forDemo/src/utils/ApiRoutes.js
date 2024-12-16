@@ -1,0 +1,9 @@
+
+const BASE_URL = process.env.REACT_APP_SYNCEDFI_DATA_SERVER;
+
+export const API_ROUTES = {
+    ALL_MULTIPLE_ACCOUNT_INVESTMENT_ROUTES : `${BASE_URL}/investment`,
+    ONE_ACCOUNT_INVESTMENT_ROUTES : `${BASE_URL}/investment`,
+    MULTIPLE_ACCOUNT_INVESTMENT_HISTORY_ROUTES : `${BASE_URL}/investment-history`,
+    ACCOUNT_INVESTMENT_HISTORY_ROUTES : `${BASE_URL}/investment-history`,
+}

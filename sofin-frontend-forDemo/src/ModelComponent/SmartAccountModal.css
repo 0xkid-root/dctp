@@ -1,0 +1,91 @@
+
+.modal-footer-custom {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.custom-close-button {
+  background: #FFDE02;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+}
+
+.custom-close-button:hover {
+  background: #f6db2b;
+  color: black;
+}
+
+.green-tick {
+  color: green;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.step-completed {
+  display: flex;
+  align-items: center;
+}
+
+.modal-footer-custom {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+}
+
+
+.transaction-hash {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.transaction-hash-wrap {
+  word-wrap: break-word;
+  max-width: 100%;
+}
+
+
+.steps-container {
+  margin-bottom: 20px;
+}
+
+.step {
+  margin-bottom: 15px;
+}
+
+.step-status {
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+  max-width: 100%;
+}
+
+.green-tick {
+  color: green;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.pending {
+  color: grey;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+
+.custom-progress-bar .progress-bar {
+  background-color: black !important;
+}
+
+
+.custom-close-button:active,
+.custom-close-button:focus {
+  background: #FFDE02 !important; 
+  box-shadow: none !important;
+  color: black !important;
+}
+
+
